@@ -13,3 +13,4 @@ H:\project\Arduino\MLX90614_ARDUINO\obj\Debug\MLX90614_ARDUINO.csproj.CoreCompil
 H:\project\Arduino\MLX90614_ARDUINO\obj\Debug\MLX90614_ARDUINO.csproj.CopyComplete
 H:\project\Arduino\MLX90614_ARDUINO\obj\Debug\MLX90614_ARDUINO.exe
 H:\project\Arduino\MLX90614_ARDUINO\obj\Debug\MLX90614_ARDUINO.pdb
+H:\project\Arduino\MLX90614_ARDUINO\obj\Debug\MLX90614_ARDUINO.csproj.AssemblyReference.cache

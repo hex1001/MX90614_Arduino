@@ -53,6 +53,7 @@ namespace MLX90614_ARDUINO
             } catch (Exception ex) {
                 MessageBox.Show(ex.Message);
             }
+            await Task.Delay(100);
             while (start) { 
                 if (count > COUNT) {
                     mb.Disconnect();

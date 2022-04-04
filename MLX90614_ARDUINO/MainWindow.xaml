@@ -6,12 +6,12 @@
         xmlns:local="clr-namespace:MLX90614_ARDUINO"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="#404750">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="383*"/>
             <ColumnDefinition Width="409*"/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="tAmbient" Content="Ambient temprature: 0" HorizontalAlignment="Left" Margin="124,90,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Width="374">
+        <Label x:Name="tAmbient" Foreground="White" Content="Ambient temprature: 0" HorizontalAlignment="Left" Margin="124,90,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Width="374">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -41,7 +41,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Label x:Name="tObject" Content="Object temprature: 0" HorizontalAlignment="Left" Margin="145,237,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Width="372">
+        <Label x:Name="tObject"  Foreground="White" Content="Object temprature: 0" HorizontalAlignment="Left" Margin="145,237,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Width="372">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -64,14 +64,14 @@
         <Button x:Name="btnStart" Content="START" Grid.Column="1" HorizontalAlignment="Left" Margin="179,148,0,0" VerticalAlignment="Top" Width="124" Height="91" FontSize="30" Click="Button_Click">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
-                    <Setter Property="CornerRadius" Value="10"/>
+                    <Setter Property="CornerRadius" Value="20"/>
                 </Style>
             </Button.Resources>
         </Button>
         <Button x:Name="btnStop" Content="STOP" Grid.Column="1" HorizontalAlignment="Left" Margin="179,289,0,0" VerticalAlignment="Top" Width="124" Height="91" FontSize="30" Click="Button_STOP_Click">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
-                    <Setter Property="CornerRadius" Value="10"/>
+                    <Setter Property="CornerRadius" Value="20"/>
                 </Style>
             </Button.Resources>
         </Button>

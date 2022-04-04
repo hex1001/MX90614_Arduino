@@ -1,0 +1,15 @@
+H:\project\Arduino\READY\MLX90614_ARDUINO.exe.config
+H:\project\Arduino\READY\MLX90614_ARDUINO.exe
+H:\project\Arduino\READY\MLX90614_ARDUINO.pdb
+H:\project\Arduino\MLX90614_ARDUINO\obj\Debug\MainWindow.g.cs
+H:\project\Arduino\MLX90614_ARDUINO\obj\Debug\App.g.cs
+H:\project\Arduino\MLX90614_ARDUINO\obj\Debug\MLX90614_ARDUINO_MarkupCompile.cache
+H:\project\Arduino\MLX90614_ARDUINO\obj\Debug\MLX90614_ARDUINO_MarkupCompile.lref
+H:\project\Arduino\MLX90614_ARDUINO\obj\Debug\MainWindow.baml
+H:\project\Arduino\MLX90614_ARDUINO\obj\Debug\MLX90614_ARDUINO.g.resources
+H:\project\Arduino\MLX90614_ARDUINO\obj\Debug\MLX90614_ARDUINO.Properties.Resources.resources
+H:\project\Arduino\MLX90614_ARDUINO\obj\Debug\MLX90614_ARDUINO.csproj.GenerateResource.cache
+H:\project\Arduino\MLX90614_ARDUINO\obj\Debug\MLX90614_ARDUINO.csproj.CoreCompileInputs.cache
+H:\project\Arduino\MLX90614_ARDUINO\obj\Debug\MLX90614_ARDUINO.csproj.CopyComplete
+H:\project\Arduino\MLX90614_ARDUINO\obj\Debug\MLX90614_ARDUINO.exe
+H:\project\Arduino\MLX90614_ARDUINO\obj\Debug\MLX90614_ARDUINO.pdb

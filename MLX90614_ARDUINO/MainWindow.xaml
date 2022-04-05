@@ -17,7 +17,7 @@
             <ColumnDefinition Width="383*"/>
             <ColumnDefinition Width="409*"/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="tAmbient" Foreground="White" Content="Ambient temprature: 0" HorizontalAlignment="Left" Margin="233,169,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Width="319" Height="54">
+        <Label x:Name="tAmbient" Foreground="Red" Content="Ambient temprature: 0" HorizontalAlignment="Left" Margin="233,169,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Width="410" Height="54">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -47,7 +47,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Label x:Name="tObject"  Foreground="White" Content="Object temprature: 0" HorizontalAlignment="Left" Margin="234,304,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Width="372">
+        <Label x:Name="tObject"  Foreground="Red" Content="Object temprature: 0" HorizontalAlignment="Left" Margin="234,304,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Width="382">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -57,7 +57,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <ComboBox x:Name="comboPort" HorizontalAlignment="Left"  Margin="10,73,0,0" VerticalAlignment="Top" Width="169" FontSize="20" RenderTransformOrigin="0.5,0.5" Grid.Column="1">
+        <ComboBox x:Name="comboPort" HorizontalAlignment="Left"  Margin="315,91,0,0" VerticalAlignment="Top" Width="169" FontSize="20" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
             <ComboBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -67,21 +67,21 @@
                 </TransformGroup>
             </ComboBox.RenderTransform>
         </ComboBox>
-        <Button x:Name="btnStart" Content="START" Grid.Column="1" HorizontalAlignment="Left" Margin="179,148,0,0" VerticalAlignment="Top" Width="124" Height="91" FontSize="30" Click="Button_Click">
+        <Button x:Name="btnStart" Content="START" Grid.Column="1" HorizontalAlignment="Left" Margin="306,159,0,0" VerticalAlignment="Top" Width="97" Height="91" FontSize="30" Click="Button_Click">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
-                    <Setter Property="CornerRadius" Value="20"/>
+                    <Setter Property="CornerRadius" Value="50"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button x:Name="btnStop" Content="STOP" Grid.Column="1" HorizontalAlignment="Left" Margin="179,289,0,0" VerticalAlignment="Top" Width="124" Height="91" FontSize="30" Click="Button_STOP_Click">
+        <Button x:Name="btnStop" Content="STOP" Grid.Column="1" HorizontalAlignment="Left" Margin="306,289,0,0" VerticalAlignment="Top" Width="97" Height="91" FontSize="30" Click="Button_STOP_Click">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
-                    <Setter Property="CornerRadius" Value="20"/>
+                    <Setter Property="CornerRadius" Value="50"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Label x:Name="tAmbient_Copy1" Content="Select the COMPORT" HorizontalAlignment="Left" Margin="278,4,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Width="288" Height="47" Grid.ColumnSpan="2">
+        <Label x:Name="tAmbient_Copy1" Content="Select the COMPORT" HorizontalAlignment="Left" Margin="275,26,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Width="288" Height="47" Grid.ColumnSpan="2">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -101,7 +101,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Button x:Name="btnClose" Background="Red" Content="CLOSE" Grid.Column="1" HorizontalAlignment="Left" Margin="301,10,0,0" VerticalAlignment="Top" Width="102" Height="71" FontSize="30" Click="btnClose_Click">
+        <Button x:Name="btnClose" Background="Red" Content="X" Grid.Column="1" HorizontalAlignment="Left" Margin="351,10,0,0" VerticalAlignment="Top" Width="52" Height="46" FontSize="30" Click="btnClose_Click">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="50"/>

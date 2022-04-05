@@ -27,27 +27,27 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Image HorizontalAlignment="Left" Height="100" Margin="15,82,0,0" VerticalAlignment="Top" Width="100" Source="temperature.png" RenderTransformOrigin="0.5,0.5">
+        <Image HorizontalAlignment="Left" Height="100" Margin="106,28,0,0" VerticalAlignment="Top" Width="100" Source="temperature.png" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
                     <SkewTransform/>
-                    <RotateTransform Angle="-30.707"/>
+                    <RotateTransform Angle="-1.12"/>
                     <TranslateTransform/>
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="sour" HorizontalAlignment="Left" Height="100" Margin="28,226,0,0" VerticalAlignment="Top" Width="100" Source="hot.png" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="sour" HorizontalAlignment="Left" Height="100" Margin="108,300,0,0" VerticalAlignment="Top" Width="100" Source="hot.png" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
                     <SkewTransform/>
-                    <RotateTransform Angle="-41.465"/>
+                    <RotateTransform Angle="0.774"/>
                     <TranslateTransform/>
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Label x:Name="tObject"  Foreground="Red" Content="Object temprature: 0" HorizontalAlignment="Left" Margin="234,304,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Width="382">
+        <Label x:Name="tObject"  Foreground="Red" Content="Object temprature: 0" HorizontalAlignment="Left" Margin="234,68,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Width="382">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -57,7 +57,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <ComboBox x:Name="comboPort" HorizontalAlignment="Left"  Margin="315,91,0,0" VerticalAlignment="Top" Width="169" FontSize="20" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
+        <ComboBox x:Name="comboPort" HorizontalAlignment="Left"  Margin="346,303,0,0" VerticalAlignment="Top" Width="169" FontSize="20" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
             <ComboBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -67,7 +67,7 @@
                 </TransformGroup>
             </ComboBox.RenderTransform>
         </ComboBox>
-        <Button x:Name="btnStart" Content="START" Grid.Column="1" HorizontalAlignment="Left" Margin="306,159,0,0" VerticalAlignment="Top" Width="97" Height="91" FontSize="30" Click="Button_Click">
+        <Button x:Name="btnStart" Content="START" Grid.Column="1" HorizontalAlignment="Left" Margin="306,193,0,0" VerticalAlignment="Top" Width="97" Height="91" FontSize="30" Click="Button_Click">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="50"/>
@@ -81,7 +81,7 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Label x:Name="tAmbient_Copy1" Content="Select the COMPORT" HorizontalAlignment="Left" Margin="275,26,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Width="288" Height="47" Grid.ColumnSpan="2">
+        <Label x:Name="tAmbient_Copy1" Content="Select the COMPORT" HorizontalAlignment="Left" Margin="280,235,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Width="288" Height="47" Grid.ColumnSpan="2">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

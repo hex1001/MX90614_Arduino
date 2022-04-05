@@ -5,19 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MLX90614_ARDUINO"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid Background="#404750">
+        AllowsTransparency="True"
+        WindowStyle="None"
+        Title="MainWindow" Height="450" Width="800"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    <Window.Background>
+        <ImageBrush ImageSource="bg.png"></ImageBrush>
+    </Window.Background>
+    <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="383*"/>
             <ColumnDefinition Width="409*"/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="tAmbient" Foreground="White" Content="Ambient temprature: 0" HorizontalAlignment="Left" Margin="124,90,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Width="374">
+        <Label x:Name="tAmbient" Foreground="White" Content="Ambient temprature: 0" HorizontalAlignment="Left" Margin="233,169,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Width="319" Height="54">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
-                    <SkewTransform AngleY="16.022"/>
-                    <RotateTransform Angle="-6.372"/>
-                    <TranslateTransform X="0.063" Y="47.811"/>
+                    <SkewTransform AngleY="-0.763"/>
+                    <RotateTransform Angle="0.914"/>
+                    <TranslateTransform X="-15.284" Y="2.408"/>
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
@@ -41,17 +47,17 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Label x:Name="tObject"  Foreground="White" Content="Object temprature: 0" HorizontalAlignment="Left" Margin="145,237,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Width="372">
+        <Label x:Name="tObject"  Foreground="White" Content="Object temprature: 0" HorizontalAlignment="Left" Margin="234,304,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Width="372">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
-                    <SkewTransform AngleY="16.022"/>
-                    <RotateTransform Angle="-8.281"/>
-                    <TranslateTransform X="0.063" Y="47.811"/>
+                    <SkewTransform AngleY="0.205"/>
+                    <RotateTransform Angle="0.054"/>
+                    <TranslateTransform X="-5.644" Y="-4.558"/>
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <ComboBox x:Name="comboPort" HorizontalAlignment="Left"  Margin="157,91,0,0" VerticalAlignment="Top" Width="169" FontSize="20" RenderTransformOrigin="0.5,0.5" Grid.Column="1">
+        <ComboBox x:Name="comboPort" HorizontalAlignment="Left"  Margin="10,73,0,0" VerticalAlignment="Top" Width="169" FontSize="20" RenderTransformOrigin="0.5,0.5" Grid.Column="1">
             <ComboBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -75,26 +81,33 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Label x:Name="tAmbient_Copy1" Content="Select the COMPORT" HorizontalAlignment="Left" Margin="103,-10,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Width="288" Grid.Column="1" Height="47">
+        <Label x:Name="tAmbient_Copy1" Content="Select the COMPORT" HorizontalAlignment="Left" Margin="278,4,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Width="288" Height="47" Grid.ColumnSpan="2">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
-                    <SkewTransform AngleY="16.022"/>
-                    <RotateTransform Angle="-25.697"/>
-                    <TranslateTransform X="0.063" Y="47.811"/>
+                    <SkewTransform AngleY="1.268"/>
+                    <RotateTransform Angle="-1.685"/>
+                    <TranslateTransform X="-15.317" Y="13.137"/>
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Label x:Name="tObject_Copy" Content="Object temprature: 0" HorizontalAlignment="Left" Margin="159,298,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Width="372">
+        <Label x:Name="tObject_Copy" Content="Object temprature: 0" HorizontalAlignment="Left" Margin="252,377,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Width="372">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
-                    <SkewTransform AngleY="16.022"/>
-                    <RotateTransform Angle="-13.139"/>
-                    <TranslateTransform X="0.063" Y="47.811"/>
+                    <SkewTransform AngleY="0.157"/>
+                    <RotateTransform Angle="0.514"/>
+                    <TranslateTransform X="-11.963" Y="-3.708"/>
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
+        <Button x:Name="btnClose" Background="Red" Content="CLOSE" Grid.Column="1" HorizontalAlignment="Left" Margin="301,10,0,0" VerticalAlignment="Top" Width="102" Height="71" FontSize="30" Click="btnClose_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="50"/>
+                </Style>
+            </Button.Resources>
+        </Button>
 
     </Grid>
 </Window>

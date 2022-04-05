@@ -91,5 +91,14 @@ namespace MLX90614_ARDUINO
                 //MessageBox.Show("Com port is closed!");
             }
         }
+
+        private void btnClose_Click(object sender, RoutedEventArgs e) {
+            Close();
+
+        }
+
+        private void Window_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e) {
+            DragMove();   
+        }
     }
 }
